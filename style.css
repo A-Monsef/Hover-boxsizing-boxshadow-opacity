@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 80px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.image1, .image2, .image3{
+    width: 800px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-right: 12%;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: 2px solid;
+}
+.image3{
+    margin-right: 0;
+}
+
+p{
+    margin-top: 10px;
+    text-align: justify;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80px;
+    padding: 5px;
+}
+.img3:hover{
+    opacity: 0.2;
+}
+.bt{
+    box-shadow: 5px 5px 5px red;
+}
+.image2{
+    position:relative;
+    
+}
+.image2 .back:hover{
+    opacity: 1;
+}
+.back{
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;    
+}
+   
